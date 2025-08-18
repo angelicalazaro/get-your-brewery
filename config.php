@@ -5,5 +5,6 @@ $user_bdd = "root"; // User of the database
 $pwd_bdd = ""; // Database password
 $db_name = "beer";
 $baseEndpoint = "https://api.openbrewerydb.org/v1/breweries?by_country=";
+$endpointByType = "https://api.openbrewerydb.org/v1/breweries?by_type=";
                                
 ?>
