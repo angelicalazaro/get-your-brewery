@@ -1,7 +1,8 @@
 <?php
 
-require_once "connect_db.php";
-require_once "apiConnect.php";
+require_once "./config/connect_db.php";
+require_once "./config/apiConnect.php";
+require_once "./config/config.php";
 
 $countries = [
     'france',
