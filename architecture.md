@@ -1,4 +1,4 @@
-/mon-projet
+/MyFavBreweries
 │
 ├── config/
 │   ├── config.php          # Variables globales (baseEndpoint, etc.)
@@ -22,4 +22,29 @@
 │   ├── users.php           # Fonctions CRUD liées aux utilisateurs
 │   └── auth.php            # Fonctions login/logout, sessions, cookies
 │
-└── import.php              # Script pour remplir la table breweries depuis API
+└── import.php              # Script pour remplir la table breweries depuis
+API
+
+Total Breweries: 8,355
+
+TABLES
+
+BREWERY
+id
+name
+by_type
+city
+website_url
+state
+country
+
+USER
+id
+name
+password
+
+FAVORITES
+id
+name
+user_id 9 (cles etrangere)
+breweries_id (cles etrangere)
