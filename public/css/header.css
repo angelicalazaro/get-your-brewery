@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 9rem;
+    height: 9rem;
+}
+
+.button {
+    display: flex;
+    align-content: space-between;
+    gap: 2rem;
+}
