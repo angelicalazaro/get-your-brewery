@@ -9,25 +9,26 @@
 <body>
     <h1>Inscription</h1>
     <form>
-        <ul>
-            <li>
-                <label for="name">Comment tu t'appeles ?</label>
-                <input type="text" id="name" name="user_name"/>
-            </li>
-            <li>
-                <label for="mail">Ton adresse e-mail :</label>
-                <input type="email" id="mail" name="user_mail"/>
-            </li>
-            <li>
-                <label for="password">Choissis un mot de passe : 
-                <input type="password" placeholder="Mot de passe"/>
-                <div class="password-icon">
-                    <i data-feather="eye"></i>
-                    <i data-feather="eye-off"></i>
-                </div>
-                </label>
-            </li>
-        </ul>
+        <label for="name">Comment tu t'appeles ?</label>
+        <input type="text" id="name" name="user_name"/>
+
+        <label for="mail">Ton adresse e-mail :</label>
+        <input type="email" id="mail" name="user_mail"/>
+
+        <label for="password">Choissis un mot de passe : 
+        <input type="password" placeholder="Mot de passe"/>
+        <div class="password-icon">
+            <i data-feather="eye"></i>
+            <i data-feather="eye-off"></i>
+        </div>
+        </label>
+
+         <script src="https://unpkg.com/feather-icons"></script>
+            <script>
+            feather.replace();
+            </script>
+            <script src="/public/pages/password.js"></script>
+        <button onclick type="submit">S'inscrire</button>
 </form>    
 </body>
 </html>
